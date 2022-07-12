@@ -60,6 +60,9 @@ p {
   color: var(--accent-color);
   text-decoration: none;
 }
+.main-nav .logo.primary {
+  margin-right: 93px;
+}
 .logo.secondary {
   color: #000000;
 }
@@ -84,9 +87,8 @@ p {
 }
 
 .site-nav {
-  margin-right: 330px;
+  /* margin-right: 330px; */
   display: flex;
-  margin-left: 93px;
 }
 
 .site-nav a {
@@ -112,6 +114,7 @@ p {
 /* Contact-nav */
 .contact-nav {
   display: flex;
+  margin-left: auto;
 
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -227,7 +230,7 @@ p {
   margin-right: auto;
 }
 .section-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -241,10 +244,11 @@ p {
 /* Команда */
 .team {
   background-color: #f5f4fa;
+  padding-bottom: 94px;
 }
 
 .team-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -253,8 +257,6 @@ p {
   text-align: center;
 }
 .team-list {
-  padding-bottom: 94px;
-
   display: flex;
   flex-wrap: wrap;
   margin-left: auto;
@@ -285,6 +287,9 @@ p {
 }
 /* Футер */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background: #2f303a;
 }
 .footer a {
@@ -292,8 +297,7 @@ p {
   text-decoration: none;
 }
 .footer-logo {
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 a[href="https://goo.gl/maps/xk3SuX6XyrTpY8Za6"]
 {
@@ -310,16 +314,18 @@ a[href="https://goo.gl/maps/xk3SuX6XyrTpY8Za6"]
   color: var(--accent-color);
 }
 .address .footer-item {
-  padding-top: 9px;
+  margin-top: 9px;
 }
-.address {
-  padding-bottom: 60px;
-}
+
 address li {
   font-style: normal;
   margin-bottom: 0;
 }
 /* Портфолио */
+.works {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .portfolio-button {
   display: inline-block;
@@ -351,8 +357,7 @@ address li {
   color: #ffffff;
 }
 .button-list {
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -378,7 +383,6 @@ address li {
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 94px;
 }
 
 .works-item {
